@@ -1,0 +1,67 @@
+
+body{
+		max-width:320px;
+		min-width:320px;
+		margin: 0;
+}
+
+h1 {font-size: 24px;}
+
+
+
+h3{
+	font-size: 12px;
+}
+
+
+div#badges{
+	width: 90%;
+}
+
+div#listitems{
+	width: 100%;
+	font-size:12px;
+}
+
+div#map{
+	display: none;
+}
+
+div#notes {
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 8px;
+}
+
+button.badge{
+	text-align: center;
+	white-space: normal;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 5px;
+	margin: 5px;
+	width:45px;
+	height:45px;
+	border: 0;
+	-webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "ProximaNovaSemibold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button.badge:hover{
+	padding: 2px;
+	margin: 2px;
+	width:50px;
+	height:50px;
+	-webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+

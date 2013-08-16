@@ -1,0 +1,253 @@
+body {
+
+  font-family: "ProximaNovaSemibold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  fill: #000;
+  margin: 10px;
+  max-width: 990px;
+  min-width:990px;
+  border: 1px;
+  background: #F8F8F8;
+}
+
+h1{
+color:#000;
+ font-family: "ProximaNovaBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-size: 32px;
+}
+
+h3{
+color: #000;
+margin-left:10%;
+width: 80%;
+margin-right:10%;
+font-size: 14px;
+ font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#page{
+	width:550px;
+	margin: 150px auto 100px;
+}
+
+
+#container{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    width:auto;
+}
+
+#upper{
+    float:center;
+}
+
+
+/*-- MAP STYLING--------------------------------------*/
+#map{
+	float:left;
+	width: 70%;
+}
+
+#land {
+   fill: #ccc;
+   background: #ccc;
+}
+
+#states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+
+circle {
+  fill: steelblue;
+  fill-opacity: .8;
+  stroke: #fff;
+}
+
+
+/*-- BUTTONS----------------------------------------*/
+
+div#badges{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	text-align: center;
+}
+
+button.badge{
+	cursor: pointer;
+	text-align: center;
+	white-space: normal;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 5px;
+	margin: 5px;
+	width:60px;
+	height:60px;
+	border:0px;
+	-webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-family: "ProximaNovaSemibold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border:0;
+}
+
+
+
+button.badge:hover{
+	padding: 2px;
+	margin: 2px;
+	width:66px;
+	height:66px;
+	-webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+    background-color: #eeeeee;
+}
+
+button.badge.on{
+	border: 4px solid #cccccc;
+
+}
+
+
+
+/*-- FACTOR COLORS --------------------------------*/
+
+
+
+#male_models.on{
+        background: #66c2a5;
+}
+
+#female_models.on{
+        background: #fc8d62;
+}
+
+#weed.on{
+        background: #8da0cb;
+}
+
+
+#sarah_palin.on{
+        background: #e78ac3;
+}
+
+#asians_athletes.on{
+        background: #a6d854;
+}
+
+#bottle_service.on{
+        background: #ffd92f;
+}
+
+#sex_scandals.on{
+        background: #e5c494;
+}
+
+#brooks_brothers.on{
+        background: #b3b3b3;
+}
+
+
+
+/*-- CITIES LIST ----------------------------------*/
+#listitems{
+color:#999;
+width: 30%;
+float: left;
+font-size: 16px;
+}
+
+form ul{
+	list-style:none;
+}
+
+form li{
+	padding: 15px;
+}
+
+form li:nth-child(even){
+	background:url('../img/line_bg.png') repeat-y center center;
+}
+
+form label{
+	width:370px;
+	font-size:20px;
+	color:#bbb;
+	display: inline-block;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#97cae6;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#footer{
+	background-color:#212121;
+	position:fixed;
+	width:100%;
+	height:70px;
+	bottom:0;
+	left:0;
+	z-index: 100000;
+}
+
+#footer h2{
+	font-size:20px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:22px 0;
+	position:absolute;
+	width:400px;
+	color:#eee;
+}
+
+#footer a.tzine,a.tzine:visited{
+	background:url("../img/tzine.png") no-repeat right top;
+	border:none;
+	text-decoration:none;
+	color:#FCFCFC;
+	font-size:12px;
+	height:70px;
+	left:50%;
+	line-height:31px;
+	margin:23px 0 0 110px;
+	position:absolute;
+	top:0;
+	width:290px;
+}
+
+/*-- TOOLTIPS ----------------------------------*/
+
+div.tipsy-inner #line1{
+font-size: 12px;
+}
+
+div.tipsy-inner #line2{
+font-size: 10px;
+}
+
+/*-- NOTES LIST ----------------------------------*/
+
+div#notes {
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+}
